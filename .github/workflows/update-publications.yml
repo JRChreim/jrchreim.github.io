@@ -1,0 +1,31 @@
+name: Update Publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate publications data from ORCID
+        run: node scripts/update-publications-from-orcid.mjs
+
+      - name: Commit updated publications data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update publications from ORCID"
+          file_pattern: publications-data.js

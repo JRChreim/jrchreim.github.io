@@ -1,1 +1,111 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Personal website for Jose Rodolfo Chreim featuring research, publications, background, and contact information."
+  >
+  <title>Jose Rodolfo Chreim</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/">Jose Rodolfo Chreim</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/about/">About</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="panel hero-copy reveal">
+          <div class="eyebrow">Caltech | Builder | Researcher</div>
+          <h1>Building thoughtful work for the web and beyond.</h1>
+          <p>
+            This homepage is now the front door to a multi-page site. Each main section has its own
+            page, so the website feels more like a traditional portfolio and less like a single long scroll.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="/research/">See Research</a>
+            <a class="button button-secondary" href="/about/">Read About Me</a>
+          </div>
+        </div>
+
+        <aside class="panel hero-card reveal reveal-delay-1" aria-label="Highlights">
+          <div class="hero-art" role="presentation"></div>
+          <div class="metric-strip">
+            <div class="metric">
+              <strong>4</strong>
+              <span>Pages with a shared design and navigation</span>
+            </div>
+            <div class="metric">
+              <strong>1</strong>
+              <span>Shared stylesheet for easier future updates</span>
+            </div>
+            <div class="metric">
+              <strong>100%</strong>
+              <span>Static and GitHub Pages friendly</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section>
+        <div class="section-heading reveal reveal-delay-1">
+          <h2>Explore the Site</h2>
+          <p>
+            Each section below now lives on its own route, which is closer to the structure you asked for.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="panel card project-card reveal reveal-delay-1">
+            <span class="project-tag">About</span>
+            <h3>Your background, interests, and story</h3>
+            <p>
+              Share your academic path, personal motivation, and the themes that connect your work.
+            </p>
+            <div class="project-links">
+              <a href="/about/">Open page</a>
+            </div>
+          </article>
+
+          <article class="panel card project-card reveal reveal-delay-2">
+            <span class="project-tag">Research</span>
+            <h3>A focused view of the questions and work you are pursuing</h3>
+            <p>
+              Show the strongest examples of research, analysis, experiments, or technical investigation.
+            </p>
+            <div class="project-links">
+              <a href="/research/">Open page</a>
+            </div>
+          </article>
+
+          <article class="panel card project-card reveal reveal-delay-3">
+            <span class="project-tag">Publications</span>
+            <h3>A dedicated place for papers, reports, and writing</h3>
+            <p>
+              Keep publications separate so visitors can quickly scan your scholarly output.
+            </p>
+            <div class="project-links">
+              <a href="/publications/">Open page</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Jose Rodolfo Chreim</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

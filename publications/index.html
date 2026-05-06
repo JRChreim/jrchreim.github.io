@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Publications by Jose Rodolfo Chreim."
+  >
+  <title>Publications | Jose Rodolfo Chreim</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/">Jose Rodolfo Chreim</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/about/">About</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro reveal">
+        <div class="panel">
+          <div class="eyebrow">Publications</div>
+          <h1>Papers, reports, and scholarly writing.</h1>
+          <p>
+            This page now pulls from a separate data file so the list is easier to maintain and easier to automate later.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="two-column-grid publications-layout">
+          <article class="panel card reveal reveal-delay-1">
+            <h2>Publication List</h2>
+            <p id="publications-source-note" class="small-note"></p>
+            <div id="publications-sections" class="publication-sections"></div>
+          </article>
+
+          <aside class="panel card reveal reveal-delay-2">
+            <h2>Keeping it updated</h2>
+            <p>
+              The page is now set up so future edits can happen in one place: <code>publications-data.js</code>, which can be regenerated from ORCID.
+            </p>
+            <ul id="publications-automation-list" class="list"></ul>
+            <p class="small-note">
+              This site now includes an ORCID refresh script and a scheduled GitHub Action for automatic updates.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Jose Rodolfo Chreim</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+  </div>
+
+  <script src="/publications-data.js"></script>
+  <script src="/publications-manual.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

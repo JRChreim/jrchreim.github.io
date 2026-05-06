@@ -1,0 +1,42 @@
+{
+  "10.1016/j.oceaneng.2024.119609": {
+    "authors": "Chreim, J. R.; de Mattos Pimenta, M.; Dantas, J. L. D.; Assi, G. R. S.",
+    "venue": "Ocean Engineering",
+    "title": "A novel lifting-line method for hydrodynamic analysis and parametric design of marine propellers with complex geometries"
+  },
+  "10.1017/aer.2023.9": {
+    "authors": "Chreim, J. R.; Dantas, J. L. D.; Burr, K. P.; Assi, G. R. S.; Pimenta, C. M. M.",
+    "venue": "The Aeronautical Journal",
+    "title": "Verification & validation of lifting line alpha- and gamma-formulations for 3-D planforms under viscous flows"
+  },
+  "10.1590/1806-9126-rbef-2018-0341": {
+    "venue": "Revista Brasileira de Ensino de Fisica",
+    "title": "Velocidade limite c",
+    "authors": "Public ORCID record entry"
+  },
+  "10.2514/6.2018-3170": {
+    "authors": "Chreim, J. R.; Dantas, J. L. D.; Burr, K. P.; Pimenta, M. de M.",
+    "venue": "AIAA AVIATION 2018 Forum",
+    "title": "Changes in Modern Lifting-Line Methods for Swept Wings and Viscous Effects"
+  },
+  "10.1115/omae2018-77995": {
+    "authors": "Chreim, J. R.; de Mattos Pimenta, M.; Dantas, J. L. D.; Assi, G. R. S.; Katsuno, E. T.",
+    "venue": "ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering",
+    "title": "Development of a Lifting-Line-Based Method for Preliminary Propeller Design"
+  },
+  "10.1115/omae2018-78136": {
+    "authors": "Chreim, J. R.; Dantas, J. L. D.; Lima, A. A. de",
+    "venue": "ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering",
+    "title": "Nonlinear Truss-Based Quasi-Static Structural Model for Force Distribution Predictions on Debris Containment Grids"
+  },
+  "10.17648/sobena-2018-87581": {
+    "authors": "Chreim, J. R.; Lima, B. de M.; Dantas, J. L. D.",
+    "venue": "27th International Congress on Waterborne Transportation, Shipbuilding, and Offshore Constructions",
+    "title": "Validacao de um Modelo Dinamico-Estrutural Simplificado para o Calculo de Esforcos Hidrodinamicos"
+  },
+  "10.26678/abcm.cobem2017.cob17-0568": {
+    "authors": "Chreim, J. R.; Dantas, J. L. D.; Burr, K. P.; Pimenta, M. de M.",
+    "venue": "24th ABCM International Congress of Mechanical Engineering",
+    "title": "Viscous Effects Assessment Through Nonlinear Lifting-Line Theory"
+  }
+}
