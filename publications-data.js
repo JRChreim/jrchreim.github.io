@@ -2,7 +2,7 @@ window.publicationsData = {
   "generatedFrom": "orcid",
   "orcid": "0000-0002-2809-9116",
   "orcidUrl": "https://orcid.org/0000-0002-2809-9116",
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-18",
   "sourceNote": "This list is generated from the public ORCID record for Jose Rodolfo Chreim.",
   "automationSuggestions": [
     "This file is auto-generated from ORCID by scripts/update-publications-from-orcid.mjs.",
